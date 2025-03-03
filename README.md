@@ -102,17 +102,17 @@ The code keeps an eye on this over time. If either happens and sticks around for
 
 It also tells us the heart rate—usually the raw one’s too noisy to figure out, but the cleaned one should say something like 80 beats per minute. Plus, it flags any trouble it found."
 
----
+
 
 ### Tying It to the Helmet
 "So imagine you’re riding with this helmet. It’s quietly watching your heartbeat and how you’re moving. If you crash—bam, motion spikes—it cleans up the heartbeat signal to see if you’re okay. If your heart rate goes crazy or stops, and it lasts a bit, it’s like, ‘Yup, this rider needs help!’ and sends an alert. This code’s testing that idea with fake data from `hehe.csv`, but it’s the same logic we’d put in the real helmet."
 
----
+
 
 ### What They’ll See
 "Run this, and you’ll see graphs: the raw heartbeat all over the place, the motion spiking at 1 second like a crash, and the cleaned heartbeat looking steadier. It’ll probably say the raw heart rate’s a mess, the cleaned one’s around 80, and it caught a crash at 1 second. That’s it keeping an eye out for you!"
 
----
+
 
 ###
 - "The numbers—like 31000 or 30000—were for the raw data, but we scaled it down, so we use 0.5 and 0.4 instead."
