@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "smart-helmet"
+version = "0.1.0"
+description = ""
+authors = ["Savith Panamgama <geethikasavith@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scikit-learn = "^1.6.1"
+tensorflow = "^2.18.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
