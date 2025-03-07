@@ -1,3 +1,5 @@
+#include <Arduino.h>
+#line 1 "E:\\COMPETITIONS\\REPOS\\Smart-Helmet\\Smart-Helmet.ino"
 #include <TensorFlowLite_ESP32.h>
 #include "model_data.cc"  // Include the converted model as a C array
 #include <tensorflow/lite/micro/all_ops_resolver.h>
@@ -74,3 +76,4 @@ void loop() {
 
     delay(1000);
 }
+
